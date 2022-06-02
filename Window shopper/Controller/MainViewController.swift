@@ -15,6 +15,8 @@ class MainViewController: UIViewController {
         calculateButton.setTitle("\(UIColor.white)", for: .normal)
         calculateButton.addTarget(self, action:
                                     #selector(MainViewController.calculate), for: .touchUpInside)
+        wegeText.inputAccessoryView = calculateButton
+        priceText.inputAccessoryView = calculateButton
         
     }
     
