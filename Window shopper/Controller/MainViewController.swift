@@ -12,7 +12,7 @@ class MainViewController: UIViewController {
             frame: CGRect(x: 0 , y: 0, width: view.frame.size.width, height:60))
         calculateButton.backgroundColor = UIColor.orange
         calculateButton.setTitle("Calculate", for: .normal)
-        calculateButton.setTitle("\(UIColor.white)", for: .normal)
+        calculateButton.setTitleColor(UIColor.white, for: .normal)
         calculateButton.addTarget(self, action:
                                     #selector(MainViewController.calculate), for: .touchUpInside)
         wegeText.inputAccessoryView = calculateButton
@@ -21,7 +21,7 @@ class MainViewController: UIViewController {
     }
     
     @objc func calculate() {
-        
+        print("here we go")
     }
 }
 
