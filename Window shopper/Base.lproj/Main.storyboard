@@ -50,6 +50,11 @@
             <point key="canvasLocation" x="-17.39130434782609" y="67.633928571428569"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="iVc-Qf-KNg">
+            <size key="intrinsicContentSize" width="112" height="18.5"/>
+        </designable>
+    </designables>
     <resources>
         <image name="windowShopperBG" width="414" height="736"/>
         <image name="windowShopperIcon" width="115" height="115"/>
