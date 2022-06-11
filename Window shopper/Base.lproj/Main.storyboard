@@ -55,6 +55,16 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYR-wO-KZ4">
+                                <rect key="frame" x="20" y="811" width="374" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Clear Calculator">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="clearCalculator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="99V-0H-vRO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -71,7 +81,10 @@
                             <constraint firstItem="50g-3t-lgS" firstAttribute="top" secondItem="iVc-Qf-KNg" secondAttribute="bottom" constant="35" id="WlL-aW-EjW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MGa-0q-WdL" secondAttribute="trailing" symbolic="YES" id="cbE-Ha-Rnt"/>
                             <constraint firstItem="tv8-4j-fCs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ehl-8G-aJ5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iYR-wO-KZ4" secondAttribute="bottom" constant="20" id="hxH-OH-S2X"/>
                             <constraint firstItem="s6z-Lq-UYU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kMq-ac-Zcj"/>
+                            <constraint firstItem="iYR-wO-KZ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kTS-ZD-AN6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iYR-wO-KZ4" secondAttribute="trailing" constant="20" id="kaG-1b-nUE"/>
                             <constraint firstItem="MGa-0q-WdL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lxr-H3-sMM"/>
                             <constraint firstItem="50g-3t-lgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ory-KA-NHP"/>
                             <constraint firstItem="MGa-0q-WdL" firstAttribute="top" secondItem="50g-3t-lgS" secondAttribute="bottom" constant="44" id="pTN-Uz-XGd"/>
@@ -81,8 +94,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="hoursLabel" destination="s6z-Lq-UYU" id="AvK-hq-7q5"/>
                         <outlet property="priceText" destination="50g-3t-lgS" id="lqS-wg-FRb"/>
-                        <outlet property="wegeText" destination="iVc-Qf-KNg" id="lo3-Vz-NFS"/>
+                        <outlet property="resultLabel" destination="MGa-0q-WdL" id="LRo-Sf-z6f"/>
+                        <outlet property="wageText" destination="iVc-Qf-KNg" id="lo3-Vz-NFS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
