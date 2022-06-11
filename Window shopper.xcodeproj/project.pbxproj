@@ -15,6 +15,7 @@
 		701E57A12848038500AECB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701E579F2848038500AECB61 /* LaunchScreen.storyboard */; };
 		701E57AB2848084400AECB61 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E57AA2848084400AECB61 /* CurrencyTextField.swift */; };
 		708A7EEB2854E249001EB72F /* Window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708A7EEA2854E249001EB72F /* Window_shopperTests.swift */; };
+		708A7EF32854E2FB001EB72F /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708A7EF22854E2FB001EB72F /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		701E57AA2848084400AECB61 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 		708A7EE82854E249001EB72F /* Window shopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Window shopperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		708A7EEA2854E249001EB72F /* Window_shopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window_shopperTests.swift; sourceTree = "<group>"; };
+		708A7EF22854E2FB001EB72F /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		701E57932848038300AECB61 /* Window shopper */ = {
 			isa = PBXGroup;
 			children = (
+				708A7EF12854E2E3001EB72F /* Model */,
 				701E57A92848080300AECB61 /* Views  */,
 				701E57A8284805E800AECB61 /* Controller */,
 				701E57942848038300AECB61 /* AppDelegate.swift */,
@@ -114,6 +117,14 @@
 				708A7EEA2854E249001EB72F /* Window_shopperTests.swift */,
 			);
 			path = "Window shopperTests";
+			sourceTree = "<group>";
+		};
+		708A7EF12854E2E3001EB72F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				708A7EF22854E2FB001EB72F /* Wage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 			files = (
 				701E57992848038300AECB61 /* MainViewController.swift in Sources */,
 				701E57952848038300AECB61 /* AppDelegate.swift in Sources */,
+				708A7EF32854E2FB001EB72F /* Wage.swift in Sources */,
 				701E57AB2848084400AECB61 /* CurrencyTextField.swift in Sources */,
 				701E57972848038300AECB61 /* SceneDelegate.swift in Sources */,
 			);
