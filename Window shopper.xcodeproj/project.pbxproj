@@ -16,6 +16,7 @@
 		701E57AB2848084400AECB61 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701E57AA2848084400AECB61 /* CurrencyTextField.swift */; };
 		708A7EEB2854E249001EB72F /* Window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708A7EEA2854E249001EB72F /* Window_shopperTests.swift */; };
 		708A7EF32854E2FB001EB72F /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708A7EF22854E2FB001EB72F /* Wage.swift */; };
+		708A7EF42854E617001EB72F /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708A7EF22854E2FB001EB72F /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				708A7EEB2854E249001EB72F /* Window_shopperTests.swift in Sources */,
+				708A7EF42854E617001EB72F /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

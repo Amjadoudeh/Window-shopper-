@@ -17,6 +17,11 @@ class Window_shopperTests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
+    
+    func test_getHours() {
+        XCTAssert(Wage.getHours(forWage: 25, andPrice: 100) == 4)
+        XCTAssert(Wage.getHours(forWage: 15.50, andPrice: 250.53) == 17)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
