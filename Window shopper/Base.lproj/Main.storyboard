@@ -20,14 +20,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="tv8-4j-fCs">
-                                <rect key="frame" x="169.5" y="84" width="75" height="75"/>
+                                <rect key="frame" x="169.5" y="120" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="Sos-w4-ng5"/>
                                     <constraint firstAttribute="width" constant="75" id="tRd-zE-Tv8"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Your hourly wege" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVc-Qf-KNg" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
-                                <rect key="frame" x="30" y="199" width="354" height="50"/>
+                                <rect key="frame" x="30" y="235" width="354" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Ebm-t2-sys"/>
                                 </constraints>
@@ -35,7 +35,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="50g-3t-lgS" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
-                                <rect key="frame" x="30" y="284" width="354" height="50"/>
+                                <rect key="frame" x="30" y="320" width="354" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="G0a-wH-dHA"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="umM-rw-GoG"/>
@@ -43,21 +43,40 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGa-0q-WdL">
+                                <rect key="frame" x="30" y="414" width="343" height="68"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6z-Lq-UYU">
+                                <rect key="frame" x="180.5" y="490" width="53" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="iVc-Qf-KNg" firstAttribute="top" secondItem="tv8-4j-fCs" secondAttribute="bottom" constant="40" id="1Xe-bD-qRq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="50g-3t-lgS" secondAttribute="trailing" constant="30" id="228-R3-4Mg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MGa-0q-WdL" secondAttribute="bottom" constant="380" id="2IF-FC-O6b"/>
+                            <constraint firstItem="MGa-0q-WdL" firstAttribute="leading" secondItem="50g-3t-lgS" secondAttribute="leading" id="4jj-x7-1hn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iVc-Qf-KNg" secondAttribute="trailing" constant="30" id="8yc-5z-cIb"/>
                             <constraint firstItem="N7i-Ua-pbT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="E2L-UQ-C6V"/>
+                            <constraint firstItem="s6z-Lq-UYU" firstAttribute="top" secondItem="MGa-0q-WdL" secondAttribute="bottom" constant="8" symbolic="YES" id="Ihr-CE-KUY"/>
                             <constraint firstItem="N7i-Ua-pbT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="P30-v9-ra5"/>
                             <constraint firstItem="N7i-Ua-pbT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VjH-ZB-pfu"/>
                             <constraint firstItem="50g-3t-lgS" firstAttribute="top" secondItem="iVc-Qf-KNg" secondAttribute="bottom" constant="35" id="WlL-aW-EjW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MGa-0q-WdL" secondAttribute="trailing" symbolic="YES" id="cbE-Ha-Rnt"/>
                             <constraint firstItem="tv8-4j-fCs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ehl-8G-aJ5"/>
-                            <constraint firstItem="tv8-4j-fCs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="fCC-Tc-Usm"/>
+                            <constraint firstItem="s6z-Lq-UYU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kMq-ac-Zcj"/>
+                            <constraint firstItem="MGa-0q-WdL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lxr-H3-sMM"/>
                             <constraint firstItem="50g-3t-lgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ory-KA-NHP"/>
+                            <constraint firstItem="MGa-0q-WdL" firstAttribute="top" secondItem="50g-3t-lgS" secondAttribute="bottom" constant="44" id="pTN-Uz-XGd"/>
                             <constraint firstItem="iVc-Qf-KNg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="tq5-PC-FQM"/>
+                            <constraint firstItem="MGa-0q-WdL" firstAttribute="width" secondItem="50g-3t-lgS" secondAttribute="width" multiplier="0.968927" id="vbQ-w2-BHQ"/>
                             <constraint firstAttribute="bottom" secondItem="N7i-Ua-pbT" secondAttribute="bottom" id="zXc-HE-fnM"/>
                         </constraints>
                     </view>
