@@ -11,8 +11,8 @@ class MainViewController: UIViewController {
     @IBAction func clearCalculator(_ sender: Any) {
         resultLabel.isHidden = true
         hoursLabel.isHidden = true
-        wageText.text = " "
-        priceText.text = " "
+        wageText.text = ""
+        priceText.text = ""
     }
     
     override func viewDidLoad() {
