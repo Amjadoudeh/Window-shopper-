@@ -25,15 +25,15 @@
                                     <constraint firstAttribute="width" constant="75" id="tRd-zE-Tv8"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Your hourly wege" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVc-Qf-KNg" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wege" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVc-Qf-KNg" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
                                 <rect key="frame" x="30" y="235" width="368" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="MT1-Q1-Ppg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="50g-3t-lgS" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="50g-3t-lgS" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
                                 <rect key="frame" x="30" y="320" width="368" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="umM-rw-GoG"/>
@@ -108,10 +108,10 @@
     </scenes>
     <designables>
         <designable name="50g-3t-lgS">
-            <size key="intrinsicContentSize" width="65" height="18.666666666666668"/>
+            <size key="intrinsicContentSize" width="64.666666666666671" height="19"/>
         </designable>
         <designable name="iVc-Qf-KNg">
-            <size key="intrinsicContentSize" width="112" height="18.666666666666668"/>
+            <size key="intrinsicContentSize" width="97.666666666666671" height="16"/>
         </designable>
     </designables>
     <resources>
