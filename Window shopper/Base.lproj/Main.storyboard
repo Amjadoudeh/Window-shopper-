@@ -25,12 +25,11 @@
                                     <constraint firstAttribute="width" constant="75" id="tRd-zE-Tv8"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wege" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVc-Qf-KNg" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVc-Qf-KNg" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
                                 <rect key="frame" x="30" y="235" width="368" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="MT1-Q1-Ppg"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
