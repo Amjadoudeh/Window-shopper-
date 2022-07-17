@@ -31,6 +31,7 @@
                                     <constraint firstAttribute="height" constant="50" id="MT1-Q1-Ppg"/>
                                 </constraints>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="50g-3t-lgS" customClass="CurrencyTextField" customModule="Window_shopper" customModuleProvider="target">
@@ -38,7 +39,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="umM-rw-GoG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYR-wO-KZ4">
@@ -108,10 +109,10 @@
     </scenes>
     <designables>
         <designable name="50g-3t-lgS">
-            <size key="intrinsicContentSize" width="64.666666666666671" height="19"/>
+            <size key="intrinsicContentSize" width="80" height="23.333333333333332"/>
         </designable>
         <designable name="iVc-Qf-KNg">
-            <size key="intrinsicContentSize" width="97.666666666666671" height="16"/>
+            <size key="intrinsicContentSize" width="138.66666666666666" height="23.333333333333332"/>
         </designable>
     </designables>
     <resources>
