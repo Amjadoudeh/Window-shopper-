@@ -39,7 +39,8 @@ class MainViewController: UIViewController {
                 view.endEditing(true) // dismissing the keyboard
                 resultLabel.isHidden = false
                 hoursLabel.isHidden = false
-                resultLabel.text = "\(Wage.getHours(forWage: wage, andPrice: price))"
+                var result = String(format:"%.02f", Wage.getHours(forWage: wage, andPrice: price))
+                resultLabel.text = "\(result)"
                 } else {
                     view.endEditing(true) // dismissing the keyboard
                     resultLabel.isHidden = false
