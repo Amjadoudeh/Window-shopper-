@@ -35,10 +35,17 @@ class MainViewController: UIViewController {
     @objc func calculate() {
         if let wageText = wageText.text, let priceText = priceText.text {
             if let wage = Double(wageText), let price = Double(priceText) {
+                if wage != 0 {
                 view.endEditing(true) // dismissing the keyboard
                 resultLabel.isHidden = false
                 hoursLabel.isHidden = false
                 resultLabel.text = "\(Wage.getHours(forWage: wage, andPrice: price))"
+                } else {
+                    view.endEditing(true) // dismissing the keyboard
+                    resultLabel.isHidden = false
+                    hoursLabel.isHidden = false
+                    resultLabel.text = "Impossible"
+                }
             }
         }
     }

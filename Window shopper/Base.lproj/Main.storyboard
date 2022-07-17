@@ -53,16 +53,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGa-0q-WdL">
-                                <rect key="frame" x="34.333333333333343" y="447" width="359.33333333333326" height="112"/>
+                                <rect key="frame" x="34.333333333333343" y="447" width="359.33333333333326" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="112" id="Ril-nj-hzo"/>
+                                    <constraint firstAttribute="height" constant="60" id="Ril-nj-hzo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6z-Lq-UYU">
-                                <rect key="frame" x="161" y="567" width="98" height="24"/>
+                                <rect key="frame" x="164" y="515" width="98" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -73,9 +73,9 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="50g-3t-lgS" secondAttribute="trailing" constant="30" id="228-R3-4Mg"/>
                             <constraint firstItem="s6z-Lq-UYU" firstAttribute="top" secondItem="MGa-0q-WdL" secondAttribute="bottom" constant="8" id="5vN-oK-QAX"/>
-                            <constraint firstItem="s6z-Lq-UYU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="161" id="6CK-w9-dNo"/>
+                            <constraint firstItem="s6z-Lq-UYU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="6CK-w9-dNo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MGa-0q-WdL" secondAttribute="trailing" constant="34.333333333333314" id="7Ij-Xz-6pj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s6z-Lq-UYU" secondAttribute="trailing" constant="169" id="8dS-MF-7RS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s6z-Lq-UYU" secondAttribute="trailing" constant="166" id="8dS-MF-7RS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iVc-Qf-KNg" secondAttribute="trailing" constant="30" id="8yc-5z-cIb"/>
                             <constraint firstItem="MGa-0q-WdL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DcM-NP-Snh"/>
                             <constraint firstItem="N7i-Ua-pbT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="E2L-UQ-C6V"/>
